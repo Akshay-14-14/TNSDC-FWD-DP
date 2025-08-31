@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <!---Header--->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!---Hero Section--->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span class="accent">AKSHAY</span></h1>
+    <h2>I am a <span id="role"></span></h2>
+    <p>A Passionate Web Developer</p>
+    <a href="#projects" class="btn">View My Work</a>
+
+    <!---Social Media Icons--->
+    <div class="social-media-icons">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="akshayasnavtej14@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+  <!---End Hero Section--->
+
+  <!---About--->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m a web developer specializing in creating interactive and modern web applications. I love turning ideas into
+      reality through clean, efficient code and beautiful design.</p>
+  </section>
+
+  <!---Skills--->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">PYTHON</div>
+      <div class="skill-card">C++</div>
+      <div class="skill-card">DATA VISVALIZATION</div>      
+    </div>
+  </section>
+
+  <!---Projects--->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A modern portfolio to showcase my work and skills.</p>
+      </div>
+      <div class="project-card">
+        <h3>Task Manager</h3>
+        <p>A web app for managing daily tasks with filters and due dates.</p>
+      </div>
+      <div class="project-card">
+        <h3>Resume Analyzer</h3>
+        <p>An app that analyzes resumes and provides ATS compatibility score.</p>
+      </div>
+      <div class="project-card">
+        <h3>Text To Speech</h3>
+        <p>An app that will convert the give text into speech.</p>
+      </div>
+    </div>
+  </section>
+
+  <!---Contact--->
+  <section id="contact" class="contact">
+    <h2>To Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Enter Your Name" required>
+      <input type="email" placeholder="Enter Your Email" required>
+      <textarea placeholder="Enter Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!---Footer--->
+  <footer>
+    <p>© 2025 AKSHAY. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
